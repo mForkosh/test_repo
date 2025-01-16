@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DeCoder</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeCoder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form class="form" name="deCoder">
+      <div class="wrap">
+        <textarea name="textToCode" placeholder="Введите сообщение" class="inputText"></textarea >
+        <textarea name="outPut" placeholder="Результат" class="inputText" readonly></textarea >
+      </div>
+      <input name="password" placeholder="Пароль (только числа)" class="inputPassword" type="password" required>
+      <input class="buttonSubmit" type="submit" value="Снять/наложить шифр" />
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
 </html>
