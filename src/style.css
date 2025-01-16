@@ -38,6 +38,8 @@
   border-radius: 1vh;
   border: none;
   box-shadow: 0.5vh 0.5vh 1.5vh -0.5vh rgba(0, 0, 0, 0.2);
+  color: darkolivegreen;
+  font-family: 'Roboto';
 
   &:active {
     box-shadow: 0.5vh 0.5vh 1.5vh -0.5vh rgba(0, 0, 0, 0.5);
