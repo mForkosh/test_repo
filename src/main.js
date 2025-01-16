@@ -23,6 +23,7 @@ document.body.addEventListener('submit', (eventData) => {
   }
 
   if (inputText.value.length === 0) {
+    outPut.value = 'Для начала работы введите текст в поле слева!'
     return;
   }
   password = parseFloat(inputPassword.value)
